@@ -1,0 +1,105 @@
+      @media screen and (max-width: 820px) {
+   :root {
+        --azul: #3772FF;
+        --verde: #36D6AD;
+        --coral: #FC7071;
+        --creme: #FCF0E3;
+        --cinza: #737380;
+        --branca: #FFFFFF;
+        --cinza-claro: #BCBCBC;
+        --cinza-claro-fundos: #F7F7F7;
+
+        --fonte-principal: 'IBM Plex Sans', 'san-serif';
+        --fonte-secundaria: 'Poppins', 'san-serif';        
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-image: url('./img/formatopo.png'), 
+            url('./img/formameio.png'), 
+            url('./img/petstelainicial.png');
+
+        background-repeat: no-repeat;
+        background-position: top left, center right, bottom 86px center;
+        min-height: 100vh;
+        display: flex;
+        font-family: var(--fonte-principal);
+        
+    }
+
+    .Background__azul {
+        background-color: var(--azul);
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;    
+        
+        
+    }
+
+    .cabecalho {
+        display: flex;
+        margin: 0 0 80px;
+        gap: 58px;
+        padding: 2em;      
+    }
+
+    .logoadopet {
+            text-align: center;
+            
+    }
+
+    .boasvindas {
+        color: var(--branca);
+        font-family: var(--fonte-principal);
+        font-weight: 1100;
+        font-size: 32px;
+        line-height: 48px;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        margin: 6px auto;
+        
+    }
+
+    .conteudo__principal {
+       margin: 0 auto;
+    }
+
+    .textoadote {
+        color: var(--branca);        
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;  
+        font-family: var(--fonte-secundaria);
+    }
+    
+    .conteudo__link {
+        margin: 13px auto 1em;
+        display: block;
+        font-size: 16px;    
+        background-color: var(--coral);
+        border-radius: 6px;
+        padding: 0.6em;
+        font-family: var(--fonte-secundaria);  
+        
+        color: var(--branca);
+        text-decoration: none;
+        width: 12em;      
+        display: flex;
+        justify-content: center;     
+    }
+
+    footer {
+        background-color: #36D6AD;
+        font-family: var(--fonte-secundaria);        
+        color: var(--branca);
+        padding: 3em;
+        margin-top: auto;
+    }
+}
