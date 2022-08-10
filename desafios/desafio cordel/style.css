@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+:root {
+    --font-titulo: 'Passion One', cursive;
+    --font-padrao: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+body {
+    min-height: 596px;
+}
+
+
+header {
+    background-color: black;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: var(--font-titulo);
+    text-align: center;
+    font-size: 10vw;
+    color: white;
+    padding: 50px 0px 0px 0px; 
+    font-variant: small-caps;
+}
+
+p#autor {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#p1 {
+    padding-bottom: 10vh;
+}
+
+div {
+    padding-top: 10vh;
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+    
+}
+
+div > p {
+    font-size: 50px;
+    font-family: var(--font-padrao);
+    line-height: 2em;
+    padding-bottom: 10vh;
+}
+
+
+.joaninha {
+    background-color: rgba(0, 0, 0, 0.397);
+    line-height: 2em;
+    padding-left: 2px;
+    width: 586px;
+    text-shadow: 1px 1px 0px black;
+    
+}
+
+.cartas {
+    background-color: rgba(0, 0, 0, 0.397);
+    line-height: 2em;
+    padding-left: 2px;
+    width: 586px;
+    text-shadow: 1px 1px 0px black;
+}
+
+#joaninha {
+    height: 100%;
+    background-image: url(imagens/background001.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding-bottom: 10vh;
+    
+}
+
+#cartas {
+    height: 100%;
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding-bottom: 10vh;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
